@@ -12,7 +12,7 @@ Model used: **Random Forest Classifier**
 """)
 
 # Load trained model
-model = pickle.load(open("mushroom_model.pkl", "rb"))
+model = pickle.load(open("rf.pkl", "rb"))
 
 # Load dataset to get column names
 df = pd.read_csv("mushrooms.csv")
